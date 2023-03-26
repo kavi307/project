@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .background{
+    background-color: #ffdcbe;
+} */
+body{
+    font-family: math;
+}
+.nav-seection{
+    background-image: url(images/women-business-high-rise-meeting.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.bg-color{
+    background-color: #dcdfe126;
+}
+.nav-row{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-col{
+    margin-top: 30px;
+}
+.nav-col-2 {
+    display: flex;
+    margin-top: 30px;
+}
+.contant{
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+}
+.contant h1{
+    font-size: 50px;
+}
+.contant p{
+    font-size: 20px;
+}
+.trail{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+                                /* About section */
+
+.about-section{
+    margin-top: 50px;
+}
+.about-container{
+    width:70%;
+    margin: 0 auto;
+}
+.about-row{
+    display: flex;
+    margin-top: 30px;
+}
+.about-col{
+    width: 48%;
+    padding: 15px;
+}
+.about-col img{
+    width: 100%;
+}
+.about-head{
+    text-align: center;
+    font-size: 30px;
+}
+.underline{
+    width: 40px;
+    height: 2px;
+    background-color: gray;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+.about-col h2{
+    text-align: center;
+    margin: 20px;
+}
+.about-details{
+    text-align: center;
+    font-size: 16px;
+}
+.about-details i{
+    font-size: 14px;
+}
+#more, #more2{
+    display: none;
+}
+.cursor{
+    cursor: pointer;
+}
+
+@media (min-width:320px){
+    .about-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .about-row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .about-col{
+        width: 100%;
+        padding: 15px;
+    }
+    .contant h1{
+        font-size: 40px;
+    }
+    .nav-col-2 a{
+        text-decoration: none;
+        padding: 10px;
+        font-size: 15px;
+        color: #fff;
+        font-weight: 900;
+    }
+    .nav-col h1{
+        font-size: 30px;
+        color: #fff;
+        font-weight: 900;
+    }
+
+}
+
+@media (min-width:600px){
+    .about-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .about-row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .about-col{
+        width: 50%;
+        padding: 15px;
+    }
+    .contant h1{
+        font-size: 50px;
+    }
+    .nav-col-2 a{
+        text-decoration: none;
+        padding: 10px;
+        font-size: 22px;
+        color: #fff;
+        font-weight: 900;
+    }
+    .nav-col h1{
+        font-size: 35px;
+        color: #fff;
+        font-weight: 900;
+    }
+}
+
+@media (min-width:1025px){
+    .about-container{
+        width:70%;
+        margin: 0 auto;
+    }
+    .about-row{
+        display: flex;
+        margin-top: 30px;
+    }
+    .about-col{
+        width: 48%;
+        padding: 15px;
+    }
+    .contant h1{
+        font-size: 50px;
+    }
+    .nav-col-2 a{
+        text-decoration: none;
+        padding: 10px;
+        font-size: 22px;
+        color: #fff;
+        font-weight: 900;
+    }
+    .nav-col h1{
+        font-size: 40px;
+        color: #fff;
+        font-weight: 900;
+    }
+}
